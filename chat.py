@@ -13,7 +13,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.document_loaders import DirectoryLoader
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API_KEY_HERE"
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(temperature=0,model_name="gpt-4")
 
